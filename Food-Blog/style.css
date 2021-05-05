@@ -1,0 +1,103 @@
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 14pt;
+    line-height: 18pt;
+    color: #000000;
+    background-color: #cdcdcd;
+    padding-top: 150px
+}
+
+nav a {
+    font-style: oblique;
+    font-size: 18pt;
+    font-weight: bold;
+    color: #9a9a9a;
+    text-decoration: none;
+    font-style: normal;
+    margin-right: 20px
+}
+
+h1 {
+    font-family: 'Teko', sans-serif;
+    font-size: 72pt;
+}
+
+h2 {
+    font-size: 24pt
+}
+
+li {
+    line-height: 22pt;
+    list-style: none
+}
+
+footer {
+    font-size: 10pt;
+    font-style: oblique;
+    color: #dfdfdf;
+    background-color: #000000;
+    padding: 20px;
+    text-align: center
+}
+
+header {
+    background-color: #000000;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 15px;
+    text-align: center
+}
+
+#splash {
+    background-image: url(heading.jpg);
+    background-size: cover;
+    height: 400px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-left: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+nav {
+    padding: 20px;
+}
+
+#foodarticles {
+    padding: 100px
+}
+
+article {
+    margin-bottom: 50px
+}
+
+.floatleft {
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    margin: auto
+}
+
+main {
+    display: grid;
+    grid-template-columns: 75% 25%
+}
+
+#ad {
+    background-color: #ff0000;
+    width: 385px;
+    height: 180px;
+    padding: 30px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px
+}
